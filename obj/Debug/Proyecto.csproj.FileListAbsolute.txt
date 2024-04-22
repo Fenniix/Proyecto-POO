@@ -21,3 +21,4 @@ C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Pr
 C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
 C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.exe
 C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.pdb
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.LoginRegistro.resources

@@ -29,23 +29,12 @@ namespace Proyecto
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnUsuario = new System.Windows.Forms.Button();
             this.btnAdmin = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Proyecto.Properties.Resources.PasteleriaFondo;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(800, 450);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // btnUsuario
             // 
@@ -57,6 +46,7 @@ namespace Proyecto
             this.btnUsuario.TabIndex = 1;
             this.btnUsuario.Text = "Usuario";
             this.btnUsuario.UseVisualStyleBackColor = true;
+            this.btnUsuario.Click += new System.EventHandler(this.btnUsuario_Click);
             // 
             // btnAdmin
             // 
@@ -68,6 +58,7 @@ namespace Proyecto
             this.btnAdmin.TabIndex = 2;
             this.btnAdmin.Text = "Administrador";
             this.btnAdmin.UseVisualStyleBackColor = true;
+            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
             // btnRegistrar
             // 
@@ -79,6 +70,18 @@ namespace Proyecto
             this.btnRegistrar.TabIndex = 3;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Proyecto.Properties.Resources.PasteleriaFondo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(800, 450);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Usuario_Admin
             // 
@@ -92,6 +95,7 @@ namespace Proyecto
             this.Controls.Add(this.pictureBox1);
             this.Name = "Usuario_Admin";
             this.Text = "Usuario_Admin";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Usuario_Admin_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
