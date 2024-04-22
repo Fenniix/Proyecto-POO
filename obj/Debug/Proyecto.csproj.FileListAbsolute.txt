@@ -9,3 +9,15 @@ C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto\obj\Debug\Proyect
 C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
 C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\bin\Debug\Proyecto.exe.config
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\bin\Debug\Proyecto.exe
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\bin\Debug\Proyecto.pdb
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.Login.resources
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.Inicio.resources
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.Usuario_Admin.resources
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.exe
+C:\Users\Rober\OneDrive\Escritorio\Uni semestre 5\POO\Proyecto clon\obj\Debug\Proyecto.pdb

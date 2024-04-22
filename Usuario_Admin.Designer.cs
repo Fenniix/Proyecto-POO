@@ -29,65 +29,77 @@ namespace Proyecto
         /// </summary>
         private void InitializeComponent()
         {
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnUsuario = new System.Windows.Forms.Button();
             this.btnAdmin = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Proyecto.Properties.Resources.PasteleriaFondo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(800, 450);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // btnUsuario
             // 
-            this.btnUsuario.BackColor = System.Drawing.Color.GhostWhite;
             this.btnUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUsuario.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuario.Location = new System.Drawing.Point(151, 162);
+            this.btnUsuario.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuario.Location = new System.Drawing.Point(88, 274);
             this.btnUsuario.Name = "btnUsuario";
-            this.btnUsuario.Size = new System.Drawing.Size(152, 84);
-            this.btnUsuario.TabIndex = 0;
+            this.btnUsuario.Size = new System.Drawing.Size(126, 36);
+            this.btnUsuario.TabIndex = 1;
             this.btnUsuario.Text = "Usuario";
-            this.btnUsuario.UseVisualStyleBackColor = false;
+            this.btnUsuario.UseVisualStyleBackColor = true;
             // 
             // btnAdmin
             // 
-            this.btnAdmin.BackColor = System.Drawing.Color.GhostWhite;
-            this.btnAdmin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
             this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdmin.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdmin.Location = new System.Drawing.Point(487, 162);
+            this.btnAdmin.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdmin.Location = new System.Drawing.Point(263, 274);
             this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(152, 84);
-            this.btnAdmin.TabIndex = 1;
+            this.btnAdmin.Size = new System.Drawing.Size(126, 36);
+            this.btnAdmin.TabIndex = 2;
             this.btnAdmin.Text = "Administrador";
-            this.btnAdmin.UseVisualStyleBackColor = false;
+            this.btnAdmin.UseVisualStyleBackColor = true;
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.BackColor = System.Drawing.Color.GhostWhite;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(318, 162);
+            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Location = new System.Drawing.Point(178, 346);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(152, 84);
-            this.btnRegistrar.TabIndex = 2;
+            this.btnRegistrar.Size = new System.Drawing.Size(126, 36);
+            this.btnRegistrar.TabIndex = 3;
             this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.UseVisualStyleBackColor = true;
             // 
             // Usuario_Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.LightSalmon;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.btnAdmin);
             this.Controls.Add(this.btnUsuario);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Usuario_Admin";
             this.Text = "Usuario_Admin";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnUsuario;
         private System.Windows.Forms.Button btnAdmin;
         private System.Windows.Forms.Button btnRegistrar;
